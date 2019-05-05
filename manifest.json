@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "AudioStopp",
+  "version": "1.0",
+  "permissions": ["tabs"],
+
+  // "description": "Audioul tau de azi il voi uita, chiar daca-mi plange de dor inima. Singuratea sora imi va fi si lacrimile nu se vor opri...",
+
+  "description": "For when you can't find the tab playing audio. Makes the tab playing audio active.",
+
+  "icons": {
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon.png"
+}
+
+}
